@@ -8,6 +8,6 @@ angular.module('route', [
   ])
   .config(function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/guidePage');
+    $urlRouterProvider.otherwise('/tab/home');
 
   });
